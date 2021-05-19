@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://jsunnyr.github.io/2021/05/19/kubernetes_depoyment/</loc>
+    <lastmod>2021-05-19</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/17/database-oracle-asm-basic/</loc>
+    <lastmod>2021-05-19</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/05/19/bootstrap/</loc>
+    <lastmod>2021-05-19</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/03/19/oracle-delete-oracle-soft/</loc>
+    <lastmod>2021-03-19</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/03/19/linux-rhel-systemd-tmpfiles/</loc>
+    <lastmod>2021-03-19</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/linux_route/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/windows-sc-create-services/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/windows-user-mgmt/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/windows-powershell-book/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/windows-cmd-basic-01/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/windows-powershell-01-basic/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/ubuntu-local-repo/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/security-cert/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/sdn-vxlan/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/redis-%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/python-pip-configuration/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/npm/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/npm-npm-installation-by-source/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/npm-installation/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/linux-yum-vars/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/linux-sftp-server/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/linux-udev/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/linux-rhel-centos-ntp-chronyd/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/linux-iproute2-ip/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/linux-hardware-mgmt/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-virtulization%20(2)/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-%E8%BF%81%E7%A7%BB%20(2)/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-virtio/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-virtulization/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-%E8%BF%81%E7%A7%BB/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-virt-clone%20(2)/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-virt-install%20(2)/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-virt-install/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-virt-clone/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-sites/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-vcpu-vmem/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-rhv-ovirt%20(2)/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-notes/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-rhv-ovirt/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-migration/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-libguestfs/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-migration%20(2)/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-cpu/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/kvm-depoly/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/javascript/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/git/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/freebsd_%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86_1/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/freebsd_%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86_1/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/freebsd_%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86_1/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/freebsd_%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86_1/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/emacs-macos%E5%8D%87%E7%BA%A7%E5%90%8E%E6%97%A0%E6%B3%95tab%E8%A1%A5%E5%85%A8/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/freebsd_%E5%8C%85%E7%AE%A1%E7%90%86_1/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/css/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2021/01/17/book/</loc>
+    <lastmod>2021-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/10/25/kvm-bridge-network/</loc>
+    <lastmod>2020-10-25</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/10/25/ubuntu-%E5%88%9D%E5%A7%8B%E5%8C%96ubuntu%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2020-10-25</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/03/22/openbsd_01_01/</loc>
+    <lastmod>2020-10-22</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/07/oracle-outline/</loc>
+    <lastmod>2020-10-22</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/10/22/arch_installation_by_hand/</loc>
+    <lastmod>2020-10-22</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/linux-emacs-mail/</loc>
+    <lastmod>2020-10-22</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/03/22/openbsd/</loc>
+    <lastmod>2020-10-22</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/linux-account_unlock/</loc>
+    <lastmod>2020-10-22</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/16/openbsd-series-01/</loc>
+    <lastmod>2020-03-11</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/linux_tool_lrzsz/</loc>
+    <lastmod>2020-03-11</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/openbsd_pfctl/</loc>
+    <lastmod>2020-03-11</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/openbsd_01/</loc>
+    <lastmod>2020-03-11</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/linux_problem/</loc>
+    <lastmod>2020-03-11</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/install_latest_git_on_linux_git2u/</loc>
+    <lastmod>2020-03-11</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/iscsi_and_multipath_on_vmware/</loc>
+    <lastmod>2020-03-08</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/linux_history/</loc>
+    <lastmod>2020-02-13</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/windows-command/</loc>
+    <lastmod>2020-01-29</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/gitbook-plugin/</loc>
+    <lastmod>2020-01-27</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/template/</loc>
+    <lastmod>2020-01-27</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/os-linux/</loc>
+    <lastmod>2020-01-19</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/linux-security-iptabes/</loc>
+    <lastmod>2020-01-19</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/os_linux_iptables/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/17/programming-outline/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/17/database-oracle-common-used-query/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/17/os-linux-software/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/17/os-linux-xinetd/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/17/os-linux-iscsi/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/17/database-oracle-installation-step-by-step/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/17/linux-firewalld/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/17/hpux-basic-01/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/17/scrivener-shortcut/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/mysql-outline/</loc>
+    <lastmod>2020-01-07</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/07/how-to-learn-linux-kernel/</loc>
+    <lastmod>2020-01-07</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/07/oracle-v/</loc>
+    <lastmod>2020-01-07</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/07/oracle-basic/</loc>
+    <lastmod>2020-01-07</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/07/oracle-advanced/</loc>
+    <lastmod>2020-01-07</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/07/mysql-procedure/</loc>
+    <lastmod>2020-01-07</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/07/mysql-installation/</loc>
+    <lastmod>2020-01-07</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/07/mysql-basic-os-related/</loc>
+    <lastmod>2020-01-07</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/07/mysql-basic/</loc>
+    <lastmod>2020-01-07</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/os-basic-01/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/network-concept/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/os-aix/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/mysql-configuration-example/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/redis-basic/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/openstack-basic/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/mysql-password-policy/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/Linux-exper/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/Linux-xls2csv/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/linux-unusual-character/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/mysql-error/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/perl/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/ruby-installation/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/winlogbeat/</loc>
+    <lastmod>2020-01-06</lastmod>
+  </url>
+</urlset>
