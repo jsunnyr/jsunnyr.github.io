@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>InSo</title>
+  
+  
+  <link href="http://jsunnyr.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://jsunnyr.github.io/"/>
+  <updated>2021-12-05T13:57:53.765Z</updated>
+  <id>http://jsunnyr.github.io/</id>
+  
+  <author>
+    <name>susu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Virt-manager</title>
+    <link href="http://jsunnyr.github.io/2021/12/05/kvm-related/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/kvm-related/</id>
+    <published>2021-12-05T13:57:53.764Z</published>
+    <updated>2021-12-05T13:57:53.765Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="virt-manager"><a class="markdownIt-Anchor" href="#virt-manager"></a> Virt-manager</h1><ul><li><a href="https://virt-manager.org/">official: virt-manger</a></li><li><a href="https://github.com/virt-manager/virt-manager.git">official: virt-manger’s git</a></li></ul><p>The virt-manager application is a desktop user interface for managing virtual machines through libvirt. It primarily targets KVM VMs, but also manages Xen and LXC (linux containers). It presents a summary view of running domains, their live performance &amp; resource utilization statistics. Wizards enable the creation of new domains, and configuration &amp; adjustment of a domain’s resource allocation &amp; virtual hardware. An embedded VNC and SPICE client viewer presents a full graphical console to the guest domain.</p><p>virt-install is a command line tool which provides an easy way to provision operating systems into virtual machines.</p><p>virt-viewer is a lightweight UI interface for interacting with the graphical display of virtualized guest OS. It can display VNC or SPICE, and uses libvirt to lookup the graphical connection details.</p><p>virt-clone is a command line tool for cloning existing inactive guests. It copies the disk images, and defines a config with new name, UUID and MAC address pointing to the copied disks.</p><p>virt-xml is a command line tool for easily editing libvirt domain XML using virt-install’s command line options.</p><p>virt-bootstrap is a command tool providing an easy way to setup the root file system for libvirt-based containers.</p><hr /><blockquote><p>install <code>virt-manager</code> on each Linux Distribution</p></blockquote><blockquote><p><a href="https://virt-manager.org/download/">https://virt-manager.org/download/</a></p></blockquote><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">yum install virt-manager (Fedora)</span><br><span class="line">apt-get install virt-manager (Debian)</span><br><span class="line">emerge virt-manager (Gentoo)</span><br><span class="line">pkg_add virt-manager (OpenBSD)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;virt-manager&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#virt-manager&quot;&gt;&lt;/a&gt; Virt-manager&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://virt-manager.org/&quot;&gt;</summary>
+      
+    
+    
+    
+    <category term="文章分类" scheme="http://jsunnyr.github.io/categories/%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB/"/>
+    
+    
+    <category term="文章标签" scheme="http://jsunnyr.github.io/tags/%E6%96%87%E7%AB%A0%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Powershell Programming</title>
+    <link href="http://jsunnyr.github.io/2021/12/05/windows-powershell-01-basic/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/windows-powershell-01-basic/</id>
+    <published>2021-12-05T13:56:02.722Z</published>
+    <updated>2021-12-07T00:58:40.484Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="powershell基础"><a class="markdownIt-Anchor" href="#powershell基础"></a> powershell基础</h1><ul><li>Windows PowerShell (Figure 1)</li><li>Windows PowerShell ISE (Figure 2)</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="built_in">command</span> -name &gt; -&lt; Required Parameter Name &gt; &lt;Required Parameter Value &gt;</span><br><span class="line">    [ -&lt; Optional Parameter Name &gt; &lt;Optional Parameter Value &gt;]</span><br><span class="line">    [ -&lt; Optional Switch Parameters &gt;]</span><br><span class="line">    [ -&lt; Optional Parameter Name &gt;] &lt;Required Parameter Value &gt;</span><br></pre></td></tr></table></figure><h2 id="帮助"><a class="markdownIt-Anchor" href="#帮助"></a> 帮助</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">help</span> <span class="built_in">help</span></span><br><span class="line"><span class="built_in">help</span> verb-noun</span><br><span class="line">man verb-noun</span><br><span class="line"><span class="built_in">help</span> about</span><br><span class="line"><span class="built_in">help</span> about_for</span><br><span class="line"><span class="built_in">help</span> about_foreach</span><br><span class="line"><span class="built_in">help</span> about_if</span><br></pre></td></tr></table></figure><h2 id="常用函数"><a class="markdownIt-Anchor" href="#常用函数"></a> 常用函数</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">get-alias</span><br><span class="line">clear-host cls, clear</span><br><span class="line">format-list fl</span><br><span class="line">get-childitem gci, ls, dir</span><br><span class="line">get-content gc, cat, <span class="built_in">type</span></span><br><span class="line">get-location gl, <span class="built_in">pwd</span></span><br><span class="line">get-member gm</span><br><span class="line">remove-item ri, rm, rmdir, del, erase, rd</span><br><span class="line">write-output write, <span class="built_in">echo</span></span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">read-host</span><br><span class="line">write-host</span><br></pre></td></tr></table></figure><h2 id="数据类型"><a class="markdownIt-Anchor" href="#数据类型"></a> 数据类型</h2><ul><li>integers</li><li>doubles</li><li>strings</li><li>arrays</li><li>hash tables</li><li>objects<ul><li>processes</li><li>services</li><li>event logs</li><li>computers</li><li>XML</li><li>anything else…</li></ul></li></ul><h2 id="powershell-环境"><a class="markdownIt-Anchor" href="#powershell-环境"></a> Powershell 环境</h2><p>Within a shell the environment is the term to describe the current settings.<br />These settings are exposed in environment variables</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">(get-item <span class="variable">$env</span>:\username).value</span><br><span class="line"></span><br><span class="line"><span class="variable">$env</span>:username</span><br></pre></td></tr></table></figure><h2 id="语法要点"><a class="markdownIt-Anchor" href="#语法要点"></a> 语法要点</h2><ol start="0"><li><p>Windows不区分大小写</p></li><li><p>PowerShell casts the result based on the first variable type.</p></li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">PS M:\&gt; [ string ] <span class="variable">$a</span>=<span class="string">&quot;4&quot;</span></span><br><span class="line">PS M:\&gt; [ int] <span class="variable">$b</span> =7</span><br><span class="line">PS M:\&gt; <span class="variable">$a</span>+<span class="variable">$b</span></span><br><span class="line">47</span><br><span class="line">PS M:\&gt; <span class="variable">$b</span>+<span class="variable">$a</span></span><br><span class="line">11</span><br><span class="line">PS M:\&gt;</span><br></pre></td></tr></table></figure><ol start="2"><li>arrays</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">PS M:\&gt; <span class="variable">$city</span> =(<span class="string">&quot; Edinburgh &quot;</span>,<span class="string">&quot; Glasgow &quot;</span>,<span class="string">&quot; Dundee &quot;</span>,<span class="string">&quot; Aberdeen &quot;</span>)</span><br><span class="line">PS M:\&gt; <span class="variable">$city</span> [3]</span><br><span class="line">Aberdeen</span><br><span class="line">PS M:\&gt; ( <span class="variable">$city</span> ). Length</span><br><span class="line">4</span><br></pre></td></tr></table></figure><ol start="3"><li>hash tables</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">PS M:\&gt; <span class="variable">$pops</span> =@&#123;<span class="string">&quot; Glasgow &quot;</span> =976970; <span class="string">&quot; Edinburgh &quot;</span> =488610;</span><br><span class="line">&gt;&gt; <span class="string">&quot; Aberdeen &quot;</span> =209460; <span class="string">&quot; Dundee &quot;</span> =157690&#125;</span><br><span class="line">&gt;&gt;</span><br><span class="line">PS M:\&gt; <span class="variable">$pops</span></span><br><span class="line">Name Value</span><br><span class="line">---- -----</span><br><span class="line">Edinburgh 488610</span><br><span class="line">Glasgow 976970</span><br><span class="line">Dundee 157690</span><br><span class="line">Aberdeen 209460</span><br><span class="line">PS M:\&gt; <span class="variable">$pops</span>.Values | Measure-Object -average |gm</span><br><span class="line">PS M:\&gt; (<span class="variable">$pops</span>.Values | Measure-Object -average ).Average</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;powershell基础&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#powershell基础&quot;&gt;&lt;/a&gt; powershell基础&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows PowerShell (Figure 1)&lt;/li&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="Programming" scheme="http://jsunnyr.github.io/categories/Programming/"/>
+    
+    <category term="Powershell" scheme="http://jsunnyr.github.io/categories/Programming/Powershell/"/>
+    
+    
+    <category term="Powershell" scheme="http://jsunnyr.github.io/tags/Powershell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/windows-powershell-book/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/windows-powershell-book/</id>
+    <published>2021-12-05T12:32:55.905Z</published>
+    <updated>2021-12-05T12:32:55.906Z</updated>
+    
+    <content type="html"><![CDATA[<p>batch file programmging complete book premkumar.S<br>batch scripting<br>learn batch file programming by john albert<br>online reference</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;batch file programmging complete book premkumar.S&lt;br&gt;batch scripting&lt;br&gt;learn batch file programming by john albert&lt;br&gt;online reference&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/sdn-vxlan/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/sdn-vxlan/</id>
+    <published>2021-12-05T12:32:55.895Z</published>
+    <updated>2021-12-05T12:32:55.895Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul><li><a href="https://blog.csdn.net/weixin_40274679/article/details/109266173">[S] csdn: 什么是VXLAN？</a></li><li><a href="https://blog.csdn.net/gengzhikui1992/article/details/79680240">csdn: overlay技术–理解VXLAN（L2 over UDP）、NVGRE（L2 over GRE）、STT(L2 over TCP)</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.csdn.net/weixi</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/redis-%E5%AE%89%E8%A3%85/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/redis-%E5%AE%89%E8%A3%85/</id>
+    <published>2021-12-05T12:32:55.891Z</published>
+    <updated>2021-12-05T12:32:55.891Z</updated>
+    
+    <content type="html"><![CDATA[<p>groupadd -g 1862 redis<br>useradd -u 1862 -g 1862 -d /redis redis<br>chmod -R 750 /redis<br>echo abcd1234 | passwd –stdin redis<br>chown -R redis:redis /redis<br>su - redis<br>cp -r /etc/skel/. ./<br>source .bash_profile<br>exit</p><p>usermod -a -G redis patrol<br>sed -i ‘/vm.overcommit_memory/d’ /etc/sysctl.conf<br>echo “vm.overcommit_memory = 1” &gt;&gt; /etc/sysctl.conf<br>sysctl -p<br>echo never &gt; /sys/kernel/mm/transparent_hugepage/enabled</p><p>vi /etc/rc.local</p><p>echo never &gt; /sys/kernel/mm/transparent_hugepage/enabled</p><p>vi /etc/security/limits.conf</p><ul><li><pre><code>  soft    core    unlimited</code></pre></li><li><pre><code>  hard    core    unlimited</code></pre></li><li><pre><code>  soft    nofile  65536</code></pre></li><li><pre><code>  hard    nofile  65536</code></pre></li><li><pre><code>  soft    nproc   65536</code></pre></li><li><pre><code>  hard    nproc   65536</code></pre></li></ul><p>vi /etc/security/limits.d/20-nproc.conf</p><p>vi /etc/rc.local<br>sh /home/AppAutoStart_Redis.sh</p><p>touch /home/AppAutoStart_Redis.sh<br>chown redis:redis /home/AppAutoStart_Redis.sh<br>chmod 744 /home/AppAutoStart_Redis.sh</p><p>vi /etc/hosts</p><p>mkdir -p /redis/install<br>chown redis. -R /redis<br>su - redis</p><p>cd /redis/install/ &amp;&amp; tar zxf redis-4.0.12.tar.gz<br>cd /redis/install/redis-4.0.12<br>REDIS_HOME=/redis/redis-4.0.12<br>cd deps &amp;&amp; make hiredis lua jemalloc linenoise </p><p>cd /redis/install/redis-4.0.12 &amp;&amp; make</p><p>make PREFIX=${REDIS_HOME} install</p><p>ls ${REDIS_HOME}/bin</p><p>export REDIS_HOME=/redis/redis-4.0.12<br>export PATH=$REDIS_HOME/bin:$PATH<br>mkdir -p ${REDIS_HOME}/conf/<br>mkdir -p ${REDIS_HOME}/tools/</p><p>cp /redis/install/redis-4.0.12/redis.conf ${REDIS_HOME}/conf/<br>cd ${REDIS_HOME}/conf/<br>sed -i “s/daemonize no/daemonize yes/g” redis.conf<br>sed -i “s/pidfile /var/run/redis_6379.pid/pidfile /redis/R_instance_name/redis.pid/g” redis.conf<br>sed -i “s/logfile &quot;&quot;/logfile /redis/R_instance_name/log/redis.log/g” redis.conf<br>sed -i “s/dir .//dir /redis/R_instance_name/snapshot/g” redis.conf<br>sed -i “s/# maxmemory <bytes>/maxmemory R_maxmemory/g” redis.conf<br>sed -i “s/bind 127.0.0.1/bind R_IP/g” redis.conf<br>sed -i “s/port 6379/port R_PORT/g” redis.conf</p><p>vi ${REDIS_HOME}/tools/env.instance</p><p>export instance_name=gdlf<br>export REDIS_HOME=/redis/redis-4.0.12</p><p>vi ${REDIS_HOME}/tools/instance.start.sh</p><p>. /redis/R_instance_name/env.R_instance_name<br>REDIS_BASE_DIR=/redis/R_instance_name<br>redis-server ${REDIS_BASE_DIR}/conf/redis.conf</p><p>vi ${REDIS_HOME}/tools/instance.stop.sh</p><p>. /redis/R_instance_name/env.R_instance_name<br>REDIS_BASE_DIR=/redis/R_instance_name<br>PW=<code>cat $REDIS_BASE_DIR/conf/redis.conf | grep ^requirepass | awk -F &quot;requirepass &quot; &#39;&#123;print $2&#125;&#39; | sed &quot;s/\&quot;//g&quot;</code><br>B_IP=<code>cat $REDIS_BASE_DIR/conf/redis.conf | grep ^bind | awk -F &quot;bind &quot; &#39;&#123;print $2&#125;&#39;</code><br>PORT=<code>cat $REDIS_BASE_DIR/conf/redis.conf | grep ^port | awk -F &quot;port &quot; &#39;&#123;print $2&#125;&#39;</code><br>redis-cli -h ${B_IP} -p ${PORT} -a “${PW}” shutdown </p><p>vi ${REDIS_HOME}/tools/instance.cli.sh</p><p>. /redis/R_instance_name/env.R_instance_name<br>REDIS_BASE_DIR=/redis/R_instance_name<br>PW=<code>cat $REDIS_BASE_DIR/conf/redis.conf | grep ^requirepass | awk -F &quot;requirepass &quot; &#39;&#123;print $2&#125;&#39; | sed &quot;s/\&quot;//g&quot;</code><br>B_IP=<code>cat $REDIS_BASE_DIR/conf/redis.conf | grep ^bind | awk -F &quot;bind &quot; &#39;&#123;print $2&#125;&#39;</code><br>PORT=<code>cat $REDIS_BASE_DIR/conf/redis.conf | grep ^port | awk -F &quot;port &quot; &#39;&#123;print $2&#125;&#39;</code><br>redis-cli -h ${B_IP} -p ${PORT} -a “${PW}”</p><p>instance_name=gdlf<br>mkdir -p /redis/${instance_name}/{conf,log,snapshot}<br>cp ${REDIS_HOME}/conf/redis.conf /redis/${instance_name}/conf/<br>R_PORT=7379<br>R_instance_name=${instance_name}<br>R_maxmemory=1073741824<br>R_IP=10.240.37.231</p><p>cd /redis/${instance_name}/conf/<br>sed -i “s/R_IP/${R_IP}/g” redis.conf<br>sed -i “s/R_PORT/${R_PORT}/g” redis.conf<br>sed -i “s/R_instance_name/${R_instance_name}/g” redis.conf<br>sed -i “s/R_maxmemory/${R_maxmemory}/g” redis.conf<br>cat /redis/${instance_name}/conf/redis.conf | grep -e “^daemonize” -e “^pidfile” -e “^logfile” -e “^dir” -e “^maxmemory” -e “^bind” -e “^port”</p><p>cd /redis/${instance_name}/<br>cp ${REDIS_HOME}/tools/env.instance env.${instance_name}<br>cp ${REDIS_HOME}/tools/instance.start.sh start.sh<br>cp ${REDIS_HOME}/tools/instance.stop.sh stop.sh<br>cp ${REDIS_HOME}/tools/instance.cli.sh cli.sh</p><p>cd /redis/${instance_name}/<br>sed -i “s/R_instance_name/${instance_name}/g” env.${instance_name}<br>sed -i “s/R_instance_name/${instance_name}/g” start.sh<br>sed -i “s/R_instance_name/${instance_name}/g” stop.sh<br>sed -i “s/R_instance_name/${instance_name}/g” cli.sh<br>chmod +x /redis/${instance_name}/start.sh<br>chmod +x /redis/${instance_name}/stop.sh<br>chmod +x /redis/${instance_name}/cli.sh<br>cat &gt;&gt; /home/AppAutoStart_Redis.sh &lt;&lt; EOF<br>su -l redis -c “/redis/${instance_name}/start.sh”<br>EOF</p><h1 id="redis-instance-name-start-sh"><a href="#redis-instance-name-start-sh" class="headerlink" title="/redis/${instance_name}/start.sh"></a>/redis/${instance_name}/start.sh</h1><h1 id="redis-instance-name-cli-sh"><a href="#redis-instance-name-cli-sh" class="headerlink" title="/redis/${instance_name}/cli.sh"></a>/redis/${instance_name}/cli.sh</h1><p>集群：</p><p>cd /redis/${instance_name}/conf/<br>sed -i “s/# cluster-config-file nodes-6379.conf/cluster-config-file ../conf/nodes-${instance_name}.conf/g” redis.conf<br>sed -i “s/# cluster-enabled yes/cluster-enabled yes/g” redis.conf<br>sed -i “s/# cluster-node-timeout 15000/cluster-node-timeout 5000/g” redis.conf<br>sed -i “s/# cluster-require-full-coverage yes/cluster-require-full-coverage yes/g” redis.conf<br>cd /redis/${instance_name}/conf/<br>cat redis.conf | grep -e “^cluster-config-file” -e “^cluster-enabled” -e “^cluster-node-timeout” -e “^cluster-require-full-coverage”</p><p>/redis/${instance_name}/start.sh</p><p>root:<br>cd /redis/install<br>umask 022<br>yum -y install ruby<br>cd /redis/install<br>gem install -l redis-3.3.5.gem<br>cp /redis/install/redis-4.0.12/src/redis-trib.rb ${REDIS_HOME}/bin</p><p>redis-trib.rb create 10.240.37.226:7379 10.240.37.245:7379 10.240.37.231:7379<br>redis-trib.rb add-node –slave 10.240.37.231:7380 10.240.37.231:7379<br>redis-trib.rb check 10.240.37.245:7380</p><p>config set masterauth okcenno<br>config set requirepass okcenno<br>auth okcenno<br>config rewrite</p><p>处一节点<br>cd /usr/local/share/gems/gems/redis-3.3.5/lib/redis/<br>PW=okcenno<br>sed -i “s/:password =&gt; nil,/:password =&gt; &quot;${PW}&quot;,/g” client.rb</p><p>redis-trib.rb check 10.240.37.231:7380</p><p>哨兵：<br>sentinel_name=sentinel<br>instance_name=gdlf<br>mkdir -p /redis/${sentinel_name}/{conf,log,snapshot}<br>cp ${REDIS_HOME}/conf/sentinel.conf /redis/${sentinel_name}/conf/sentinel.conf</p><p>B_IP=10.240.54.190<br>MASTER_IP=10.240.54.190<br>L_PORT=27379<br>master_name=${instance_name}<br>master_port=7379<br>PW=okcenno</p><p>cd /redis/${sentinel_name}/conf/<br>sed -i “s/B_IP/${B_IP}/g” sentinel.conf<br>sed -i “s/MASTER_IP/${MASTER_IP}/g” sentinel.conf<br>sed -i “s/L_PORT/${L_PORT}/g” sentinel.conf<br>sed -i “s/R_sentinel/${sentinel_name}/g” sentinel.conf<br>sed -i “s/master_name/${master_name}/g” sentinel.conf<br>sed -i “s/master_port/${master_port}/g” sentinel.conf<br>sed -i “s/PW/${PW}/g” sentinel.conf</p><p>cat /redis/${sentinel_name}/conf/sentinel.conf</p><p>cd /redis/${sentinel_name}/<br>cp ${REDIS_HOME}/tools/env.sentinel env.${sentinel_name}<br>cp ${REDIS_HOME}/tools/sentinel.start.sh start.sh<br>cp ${REDIS_HOME}/tools/sentinel.stop.sh stop.sh<br>cp ${REDIS_HOME}/tools/sentinel.cli.sh cli.sh</p><p>cd /redis/${sentinel_name}/<br>sed -i “s/R_sentinel_name/${sentinel_name}/g” env.${sentinel_name}<br>sed -i “s/R_sentinel_name/${sentinel_name}/g” start.sh<br>sed -i “s/R_sentinel_name/${sentinel_name}/g” stop.sh<br>sed -i “s/R_sentinel_name/${sentinel_name}/g” cli.sh<br>chmod +x /redis/${sentinel_name}/start.sh<br>chmod +x /redis/${sentinel_name}/stop.sh<br>chmod +x /redis/${sentinel_name}/cli.sh<br>cat &gt;&gt; /home/AppAutoStart_Redis.sh &lt;&lt; EOF<br>su -l redis -c “/redis/${sentinel_name}/start.sh”<br>EOF</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;groupadd -g 1862 redis&lt;br&gt;useradd -u 1862 -g 1862 -d /redis redis&lt;br&gt;chmod -R 750 /redis&lt;br&gt;echo abcd1234 | passwd –stdin redis&lt;br&gt;chown </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/python-pip-configuration/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/python-pip-configuration/</id>
+    <published>2021-12-05T12:32:55.888Z</published>
+    <updated>2021-12-05T12:32:55.888Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Linux-Mac-Windows-安装-配置-使用pip"><a href="#Linux-Mac-Windows-安装-配置-使用pip" class="headerlink" title="Linux / Mac / Windows 安装/配置/使用pip"></a>Linux / Mac / Windows 安装/配置/使用pip</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">curl curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py</span><br><span class="line">python get-pip.py</span><br><span class="line">python3 get-pip.py</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 部分Linux可以通过包管理器</span></span><br><span class="line">sudo apt-get install python-pip</span><br></pre></td></tr></table></figure><h2 id="配置国内源"><a href="#配置国内源" class="headerlink" title="配置国内源"></a>配置国内源</h2><blockquote><p>UNIX</p></blockquote><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.pip/pip.conf</span><br><span class="line">[global]</span><br><span class="line">index-url = https://mirrors.aliyun.com/pypi/simple</span><br><span class="line">[install]</span><br><span class="line">trusted-host = https://mirrors.aliyun.com</span><br></pre></td></tr></table></figure><blockquote><p>NT</p></blockquote><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">md %HOMEPATH%\pip</span><br><span class="line">touch %HOMEPATH%\pip\pip.ini</span><br><span class="line">[global]</span><br><span class="line">index-url = https://mirrors.aliyun.com/pypi/simple</span><br><span class="line">[install]</span><br><span class="line">trusted-host = https://mirrors.aliyun.com</span><br></pre></td></tr></table></figure><h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">pip --version</span><br><span class="line">pip3 --version</span><br><span class="line">pip --help</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 升级pip</span></span><br><span class="line">pip install -U pip</span><br><span class="line">sudo easy_install --upgrade pip</span><br><span class="line">python -m pip install -U pip</span><br><span class="line"></span><br><span class="line">pip install package</span><br><span class="line">pip install package==version</span><br><span class="line">pip install package&gt;=version</span><br><span class="line">python2 -m pip install package</span><br><span class="line">python3 -m pip install package</span><br><span class="line">pip install --upgrade package</span><br><span class="line">pip uninstall package</span><br><span class="line"></span><br><span class="line">pip search pacakge</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 显示安装包信息</span></span><br><span class="line">pip show</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看指定包的详细信息</span></span><br><span class="line">pip show -f package</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 列出已安装的包</span></span><br><span class="line">pip list</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看可升级的包</span></span><br><span class="line">pip list -o</span><br></pre></td></tr></table></figure><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul><li><a href="https://www.cnblogs.com/schut/p/10410087.html">cnblogs: Python pip配置国内源</a></li><li><a href="https://www.runoob.com/w3cnote/python-pip-install-usage.html">runoob.com: Python pip 安装与使用</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Linux-Mac-Windows-安装-配置-使用pip&quot;&gt;&lt;a href=&quot;#Linux-Mac-Windows-安装-配置-使用pip&quot; class=&quot;headerlink&quot; title=&quot;Linux / Mac / Windows 安装/配置/使用pip&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/npm/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/npm/</id>
+    <published>2021-12-05T12:32:55.859Z</published>
+    <updated>2021-12-05T12:32:55.859Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="npm"><a href="#npm" class="headerlink" title="npm"></a>npm</h1><h2 id="npm更换源"><a href="#npm更换源" class="headerlink" title="npm更换源"></a>npm更换源</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npm get registry</span><br><span class="line">npm config set registry http://registry.npm.taobao.org/</span><br><span class="line">yarn config set registry http://registry.npm.taobao.org/</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 安装淘宝npm</span></span><br><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><p>npm list -g –depth 0<br>npm cache verify, 还有一个方法npm cache clean –force<br>npm uninstall *</p><p><a href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;npm&quot;&gt;&lt;a href=&quot;#npm&quot; class=&quot;headerlink&quot; title=&quot;npm&quot;&gt;&lt;/a&gt;npm&lt;/h1&gt;&lt;h2 id=&quot;npm更换源&quot;&gt;&lt;a href=&quot;#npm更换源&quot; class=&quot;headerlink&quot; title=&quot;npm更换源&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/npm-npm-installation-by-source/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/npm-npm-installation-by-source/</id>
+    <published>2021-12-05T12:32:55.858Z</published>
+    <updated>2021-12-05T12:32:55.858Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: [npm] n<br>date: 2020-01-06 17:14:58<br>tags:</p><ul><li>MySQL</li><li>Outline<br>categories: Outline<br>author: susu<br>comments: true</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: [npm] n&lt;br&gt;date: 2020-01-06 17:14:58&lt;br&gt;tags:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;Outline&lt;br&gt;categories: Outline&lt;br&gt;author: susu&lt;br&gt;c</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/linux_tool_network_related/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/linux_tool_network_related/</id>
+    <published>2021-12-05T12:32:55.840Z</published>
+    <updated>2021-12-05T12:32:55.841Z</updated>
+    
+    <content type="html"><![CDATA[<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><!-- 2021-01-25 周一 14:28 --><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>&lrm;</title><meta name="generator" content="Org mode" /><style type="text/css"> <!--/*--><![CDATA[/*><!--*/  .title  { text-align: center;             margin-bottom: .2em; }  .subtitle { text-align: center;              font-size: medium;              font-weight: bold;              margin-top:0; }  .todo   { font-family: monospace; color: red; }  .done   { font-family: monospace; color: green; }  .priority { font-family: monospace; color: orange; }  .tag    { background-color: #eee; font-family: monospace;            padding: 2px; font-size: 80%; font-weight: normal; }  .timestamp { color: #bebebe; }  .timestamp-kwd { color: #5f9ea0; }  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }  .org-center { margin-left: auto; margin-right: auto; text-align: center; }  .underline { text-decoration: underline; }  #postamble p, #preamble p { font-size: 90%; margin: .2em; }  p.verse { margin-left: 3%; }  pre {    border: 1px solid #ccc;    box-shadow: 3px 3px 3px #eee;    padding: 8pt;    font-family: monospace;    overflow: auto;    margin: 1.2em;  }  pre.src {    position: relative;    overflow: visible;    padding-top: 1.2em;  }  pre.src:before {    display: none;    position: absolute;    background-color: white;    top: -10px;    right: 10px;    padding: 3px;    border: 1px solid black;  }  pre.src:hover:before { display: inline;}  /* Languages per Org manual */  pre.src-asymptote:before { content: 'Asymptote'; }  pre.src-awk:before { content: 'Awk'; }  pre.src-C:before { content: 'C'; }  /* pre.src-C++ doesn't work in CSS */  pre.src-clojure:before { content: 'Clojure'; }  pre.src-css:before { content: 'CSS'; }  pre.src-D:before { content: 'D'; }  pre.src-ditaa:before { content: 'ditaa'; }  pre.src-dot:before { content: 'Graphviz'; }  pre.src-calc:before { content: 'Emacs Calc'; }  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }  pre.src-fortran:before { content: 'Fortran'; }  pre.src-gnuplot:before { content: 'gnuplot'; }  pre.src-haskell:before { content: 'Haskell'; }  pre.src-hledger:before { content: 'hledger'; }  pre.src-java:before { content: 'Java'; }  pre.src-js:before { content: 'Javascript'; }  pre.src-latex:before { content: 'LaTeX'; }  pre.src-ledger:before { content: 'Ledger'; }  pre.src-lisp:before { content: 'Lisp'; }  pre.src-lilypond:before { content: 'Lilypond'; }  pre.src-lua:before { content: 'Lua'; }  pre.src-matlab:before { content: 'MATLAB'; }  pre.src-mscgen:before { content: 'Mscgen'; }  pre.src-ocaml:before { content: 'Objective Caml'; }  pre.src-octave:before { content: 'Octave'; }  pre.src-org:before { content: 'Org mode'; }  pre.src-oz:before { content: 'OZ'; }  pre.src-plantuml:before { content: 'Plantuml'; }  pre.src-processing:before { content: 'Processing.js'; }  pre.src-python:before { content: 'Python'; }  pre.src-R:before { content: 'R'; }  pre.src-ruby:before { content: 'Ruby'; }  pre.src-sass:before { content: 'Sass'; }  pre.src-scheme:before { content: 'Scheme'; }  pre.src-screen:before { content: 'Gnu Screen'; }  pre.src-sed:before { content: 'Sed'; }  pre.src-sh:before { content: 'shell'; }  pre.src-sql:before { content: 'SQL'; }  pre.src-sqlite:before { content: 'SQLite'; }  /* additional languages in org.el's org-babel-load-languages alist */  pre.src-forth:before { content: 'Forth'; }  pre.src-io:before { content: 'IO'; }  pre.src-J:before { content: 'J'; }  pre.src-makefile:before { content: 'Makefile'; }  pre.src-maxima:before { content: 'Maxima'; }  pre.src-perl:before { content: 'Perl'; }  pre.src-picolisp:before { content: 'Pico Lisp'; }  pre.src-scala:before { content: 'Scala'; }  pre.src-shell:before { content: 'Shell Script'; }  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }  /* additional language identifiers per "defun org-babel-execute"       in ob-*.el */  pre.src-cpp:before  { content: 'C++'; }  pre.src-abc:before  { content: 'ABC'; }  pre.src-coq:before  { content: 'Coq'; }  pre.src-groovy:before  { content: 'Groovy'; }  /* additional language identifiers from org-babel-shell-names in     ob-shell.el: ob-shell is the only babel language using a lambda to put     the execution function name together. */  pre.src-bash:before  { content: 'bash'; }  pre.src-csh:before  { content: 'csh'; }  pre.src-ash:before  { content: 'ash'; }  pre.src-dash:before  { content: 'dash'; }  pre.src-ksh:before  { content: 'ksh'; }  pre.src-mksh:before  { content: 'mksh'; }  pre.src-posh:before  { content: 'posh'; }  /* Additional Emacs modes also supported by the LaTeX listings package */  pre.src-ada:before { content: 'Ada'; }  pre.src-asm:before { content: 'Assembler'; }  pre.src-caml:before { content: 'Caml'; }  pre.src-delphi:before { content: 'Delphi'; }  pre.src-html:before { content: 'HTML'; }  pre.src-idl:before { content: 'IDL'; }  pre.src-mercury:before { content: 'Mercury'; }  pre.src-metapost:before { content: 'MetaPost'; }  pre.src-modula-2:before { content: 'Modula-2'; }  pre.src-pascal:before { content: 'Pascal'; }  pre.src-ps:before { content: 'PostScript'; }  pre.src-prolog:before { content: 'Prolog'; }  pre.src-simula:before { content: 'Simula'; }  pre.src-tcl:before { content: 'tcl'; }  pre.src-tex:before { content: 'TeX'; }  pre.src-plain-tex:before { content: 'Plain TeX'; }  pre.src-verilog:before { content: 'Verilog'; }  pre.src-vhdl:before { content: 'VHDL'; }  pre.src-xml:before { content: 'XML'; }  pre.src-nxml:before { content: 'XML'; }  /* add a generic configuration mode; LaTeX export needs an additional     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */  pre.src-conf:before { content: 'Configuration File'; }  table { border-collapse:collapse; }  caption.t-above { caption-side: top; }  caption.t-bottom { caption-side: bottom; }  td, th { vertical-align:top;  }  th.org-right  { text-align: center;  }  th.org-left   { text-align: center;   }  th.org-center { text-align: center; }  td.org-right  { text-align: right;  }  td.org-left   { text-align: left;   }  td.org-center { text-align: center; }  dt { font-weight: bold; }  .footpara { display: inline; }  .footdef  { margin-bottom: 1em; }  .figure { padding: 1em; }  .figure p { text-align: center; }  .equation-container {    display: table;    text-align: center;    width: 100%;  }  .equation {    vertical-align: middle;  }  .equation-label {    display: table-cell;    text-align: right;    vertical-align: middle;  }  .inlinetask {    padding: 10px;    border: 2px solid gray;    margin: 10px;    background: #ffffcc;  }  #org-div-home-and-up   { text-align: right; font-size: 70%; white-space: nowrap; }  textarea { overflow-x: auto; }  .linenr { font-size: smaller }  .code-highlighted { background-color: #ffff00; }  .org-info-js_info-navigation { border-style: none; }  #org-info-js_console-label    { font-size: 10px; font-weight: bold; white-space: nowrap; }  .org-info-js_search-highlight    { background-color: #ffff00; color: #000000; font-weight: bold; }  .org-svg { width: 90%; }  /*]]>*/--></style><script type="text/javascript">/*@licstart  The following is the entire license notice for theJavaScript code in this tag.Copyright (C) 2012-2020 Free Software Foundation, Inc.The JavaScript code in this tag is free software: you canredistribute it and/or modify it under the terms of the GNUGeneral Public License (GNU GPL) as published by the Free SoftwareFoundation, either version 3 of the License, or (at your option)any later version.  The code is distributed WITHOUT ANY WARRANTY;without even the implied warranty of MERCHANTABILITY or FITNESSFOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.As additional permission under GNU GPL version 3 section 7, youmay distribute non-source (e.g., minimized or compacted) forms ofthat code without the copy of the GNU GPL normally required bysection 4, provided you include this license notice and a URLthrough which recipients can access the Corresponding Source.@licend  The above is the entire license noticefor the JavaScript code in this tag.*/<!--/*--><![CDATA[/*><!--*/ function CodeHighlightOn(elem, id) {   var target = document.getElementById(id);   if(null != target) {     elem.cacheClassElem = elem.className;     elem.cacheClassTarget = target.className;     target.className = "code-highlighted";     elem.className   = "code-highlighted";   } } function CodeHighlightOff(elem, id) {   var target = document.getElementById(id);   if(elem.cacheClassElem)     elem.className = elem.cacheClassElem;   if(elem.cacheClassTarget)     target.className = elem.cacheClassTarget; }/*]]>*///--></script></head><body><div id="content"><p>#title: Linux中网络分析工具</p></div><div id="postamble" class="status"><p class="date">Created: 2021-01-25 周一 14:28</p><p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p></div></body></html>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
+&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-stri</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/linux-yum-vars/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/linux-yum-vars/</id>
+    <published>2021-12-05T12:32:55.833Z</published>
+    <updated>2021-12-05T12:32:55.834Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="yum"><a href="#yum" class="headerlink" title="yum"></a>yum</h1><h2 id="yum-相关变量"><a href="#yum-相关变量" class="headerlink" title="yum 相关变量"></a>yum 相关变量</h2><ul><li><code>$arch</code></li></ul><p>作用：标识cpu的架构，如i386，i486，i586等<br>默认取值：默认根据cpu架构自动取值<br>设置方法：<br>在/etc/yum/vars/arch文件写入一个值，这个值就是这个变量的值（优先级高）</p><ul><li><code>$basearch</code></li></ul><p>作用：标识cpu的基本架构。例如i486和i586等使用一个基本架构i386，AMD64和Intel64有一个基本的架构x86_64。<br>默认取值：默认根据cpu架构自动取值<br>设置方法：在/etc/yum/vars/basearch文件写入一个值，这个值就是这个变量的值（优先级高）</p><ul><li><code>$releasever</code></li></ul><p>作用：标识操作系统的版本号。<br>默认取值：先查找/etc/yum.conf配置文件中distroverpkg配置的value，然后取得value对应的rpm包名，最后获取到这个rpm包的release版本号就是这个变量的值（如果是centos系统，默认情况下distroverpkg的value为centos-release，再取centos-release这个包的release号）<br>设置方法：在/etc/yum/vars/releasever文件写入一个值，这个值就是这个变量的值（优先级高）</p><h2 id="获取相关变量"><a href="#获取相关变量" class="headerlink" title="获取相关变量"></a>获取相关变量</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> yum;</span><br><span class="line"><span class="keyword">import</span> pprint;</span><br><span class="line"></span><br><span class="line">yb = yum.YumBase();</span><br><span class="line">pprint.pprint(yb.conf.yumvar, width=<span class="number">1</span>);</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;yum&quot;&gt;&lt;a href=&quot;#yum&quot; class=&quot;headerlink&quot; title=&quot;yum&quot;&gt;&lt;/a&gt;yum&lt;/h1&gt;&lt;h2 id=&quot;yum-相关变量&quot;&gt;&lt;a href=&quot;#yum-相关变量&quot; class=&quot;headerlink&quot; title=&quot;yum 相</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/linux-udev/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/linux-udev/</id>
+    <published>2021-12-05T12:32:55.829Z</published>
+    <updated>2021-12-05T12:32:55.830Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Udev"><a href="#Udev" class="headerlink" title="Udev"></a>Udev</h1><p>Hotplugging (which is the word used to describe the process of inserting devices into a running system) is achieved in a Linux distribution by a combination of three components:¬†Udev, HAL, and Dbus.</p><p>Udev[^1] supplies a dynamic device directory containing only the nodes for devices which are connected to the system. It creates or removes the device node files in the /dev directory as they are plugged in or taken out. Dbus is like a system bus which is used for inter-process communication. The HAL gets information from the Udev service, when a device is attached to the system and it creates an XML representation of that device. It then notifies the corresponding desktop application like Nautilus through the Dbus and Nautilus will open the mounted device‚</p><p>[^1]: <a href="https://www.linux.com/news/udev-introduction-device-management-modern-linux-system/">linux.com  Udev: Introduction to Device Management In Modern Linux System</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Udev&quot;&gt;&lt;a href=&quot;#Udev&quot; class=&quot;headerlink&quot; title=&quot;Udev&quot;&gt;&lt;/a&gt;Udev&lt;/h1&gt;&lt;p&gt;Hotplugging (which is the word used to describe the process of</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/linux-sftp-server/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/linux-sftp-server/</id>
+    <published>2021-12-05T12:32:55.828Z</published>
+    <updated>2021-12-05T12:32:55.828Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ftp-server"><a href="#ftp-server" class="headerlink" title="ftp server"></a>ftp server</h1><h2 id="构建-ftp-server-6"><a href="#构建-ftp-server-6" class="headerlink" title="构建 ftp server^6"></a>构建 ftp server<a href="%5BLinux%E4%B8%ADFTP%E6%9C%8D%E5%8A%A1%E5%99%A8%5D(https://www.jb51.net/article/117779.htm)">^6</a></h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install vsftpd</span><br></pre></td></tr></table></figure><p>ftp的配置文件主要有三个，位于/etc/vsftpd/目录下.</p><ul><li><code>ftpusers</code> 该文件用来指定那些用户不能访问ftp服务器</li><li><code>user_list</code> 该文件用来指示的默认账户在默认情况下也不能访问ftp</li><li><code>vsftpd.conf</code> vsftpd的主配置文件</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/vsftpd/vsftpd.conf</span><br><span class="line">anon_upload_enable=NO</span><br><span class="line">anon_mkdir_write_enable=NO</span><br><span class="line">userlist_enable=YES</span><br><span class="line">userlist_file=/etc/vsftpd/vsftpd.user_list</span><br><span class="line">userlist_deny=NO</span><br><span class="line">pasv_min_port=50000</span><br><span class="line">pasv_max_port=60000</span><br></pre></td></tr></table></figure><h1 id="sftp-server-1-4"><a href="#sftp-server-1-4" class="headerlink" title="sftp server^1[^4]"></a>sftp server<a href="%5Blinux%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BAsftp%E6%9C%8D%E5%8A%A1%E5%99%A8%5D(https://www.cnblogs.com/reachos/p/11157329.html)">^1</a>[^4]</h1><h2 id="构建sftp的目标"><a href="#构建sftp的目标" class="headerlink" title="构建sftp的目标"></a>构建sftp的目标</h2><ul><li>安全隔离</li><li>访问控制</li><li>用户控制</li><li>登陆控制</li><li>日志审计<a href="%5BCentOS%E4%B8%8B%E9%85%8D%E7%BD%AESFTP%E6%93%8D%E4%BD%9C%E6%97%A5%E5%BF%97%5D(https://blog.csdn.net/weixin_33709219/article/details/85915241)">^5</a></li><li>操作审计</li><li>命令审计</li></ul><h2 id="构建-sftp-server"><a href="#构建-sftp-server" class="headerlink" title="构建 sftp server"></a>构建 sftp server</h2><blockquote><p>透过ssh的sftp</p></blockquote><p>sftp采用的是ssh加密隧道，安装性方面较ftp强，而且依赖的是系统自带的ssh服务，不像ftp还需要额外的进行安装.</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">mkdir /data/sftp/mysftp</span><br><span class="line">groupadd sftp</span><br><span class="line">useradd -g sftp -d /data/sftp/mysftp -s /bin/false -M mysftp</span><br><span class="line">vim /etc/sshd/sshd_config</span><br><span class="line">    # Subsystem sftp /usr/libexec/openssh/sftp-server -l INFO -f AUTH</span><br><span class="line">    Subsystem sftp internal-sftp -l INFO -f AUTH       # 指定使用sftp服务使用系统自带的internal-sftp</span><br><span class="line">    LogLevel INFO</span><br><span class="line">    Match Group sftp                   # 匹配sftp组的用户,若要匹配多个组,可用逗号分开,也可用“Match User USERNAME”来匹配用户</span><br><span class="line">    ChrootDirectory /data/sftp/%u      # 限制用户的根目录,将用户锁定在自己的home目录中，使其不可浏览上级目录。并且该行一定要在“Match”语句下方. %u 或者 %h</span><br><span class="line">    ForceCommand internal-sftp         # 只能用于sftp登录</span><br><span class="line">    AllowTcpForwarding no              # 禁止用户使用端口转发</span><br><span class="line">    X11Forwarding no                   # 禁止用户使用端口转发</span><br><span class="line">chown root:sftp /data/sftp/mysftp//据说属主必须为root,可以不是root</span><br><span class="line">chmod 755 /data/sftp/mysftp//据说权限应低于等于755,否则登陆报错</span><br><span class="line">mkdir /data/sftp/mysftp/upload</span><br><span class="line">chown mysftp:sftp /data/sftp/mysftp/upload</span><br><span class="line">chmod 755 /data/sftp/mysftp/upload</span><br><span class="line">setenforce 0</span><br><span class="line">systemctl stop firewalld</span><br><span class="line"></span><br><span class="line">sftp mysftp@ip-addr</span><br></pre></td></tr></table></figure><h2 id="注意事项-3"><a href="#注意事项-3" class="headerlink" title="注意事项^3"></a>注意事项<a href="%5BLinux%E4%B8%8B%E6%90%AD%E5%BB%BASFTP%E6%9C%8D%E5%8A%A1%E5%99%A8%5D(https://blog.51cto.com/yinkai/1729578)">^3</a></h2><ul><li>ChrootDirectory设置的目录权限及其所有的上级文件夹权限，属主和属组必须是root；</li><li>ChrootDirectory设置的目录权限及其所有的上级文件夹权限，只有属主能拥有写权限，也就是说权限最大设置只能是755</li></ul><blockquote><p>常见报错</p></blockquote><ol><li>/data/sftp目录权限分配不当,属主必须为root,属组可以为sftp组</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sftp -P 12012 userrenwolecom@10.28.204.62</span></span><br><span class="line">userrenwolecom@10.28.204.62&#x27;s password:</span><br><span class="line">packet_write_wait: Connection to 10.28.204.62 port 12012: Broken pipe</span><br><span class="line">Couldn&#x27;t read packet: Connection reset by peer</span><br></pre></td></tr></table></figure><ol start="2"><li>重启sshd后，当前终端不会断开，新建终端输入正确密码后会出现SSH登录闪退（自动关闭终端）问题</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/sshd/sshd_config</span><br><span class="line">Match Group username# 此处不应该使用sftp组内的具体某个sftp服务的用户,用该写 sftp组(但是和另一博客的内容有冲突)</span><br></pre></td></tr></table></figure><ol start="3"><li>sshd 启动报错: <code>/var/empty must be owned by root and not group or world-writable.</code></li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chmod 744 /var/empty</span><br><span class="line">chown -R root. /var/empty</span><br></pre></td></tr></table></figure><h1 id="sublime-sftp-插件"><a href="#sublime-sftp-插件" class="headerlink" title="sublime sftp 插件"></a>sublime sftp 插件</h1><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;upload_on_save&quot;</span>: <span class="literal">true</span>,# 保存的时候自动上传到服务器</span><br><span class="line"><span class="string">&quot;sync_down_on_open&quot;</span>: <span class="literal">true</span>,# 开本地文件编辑的时候，自动下载远程文件来更新本地</span><br><span class="line"> </span><br><span class="line"><span class="string">&quot;host&quot;</span>: <span class="string">&quot;xxx.com&quot;</span>,</span><br><span class="line"><span class="string">&quot;user&quot;</span>: <span class="string">&quot;xxx&quot;</span>,</span><br><span class="line"><span class="string">&quot;password&quot;</span>: <span class="string">&quot;xxx&quot;</span>,</span><br><span class="line"><span class="string">&quot;port&quot;</span>: <span class="string">&quot;22&quot;</span>,</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;remote_path&quot;</span>: <span class="string">&quot;/xxx/xxx&quot;</span>,</span><br></pre></td></tr></table></figure><p>[^1]: <a href="https://www.cnblogs.com/reachos/p/11737382.html">sftp 多用户安装与配置</a></p><p>[^4]: <a href="https://www.jb51.net/article/101405.htm">Linux 下sftp配置之密钥方式登录详解</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;ftp-server&quot;&gt;&lt;a href=&quot;#ftp-server&quot; class=&quot;headerlink&quot; title=&quot;ftp server&quot;&gt;&lt;/a&gt;ftp server&lt;/h1&gt;&lt;h2 id=&quot;构建-ftp-server-6&quot;&gt;&lt;a href=&quot;#构建-ftp</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/linux-rhel-systemd-tmpfiles/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/linux-rhel-systemd-tmpfiles/</id>
+    <published>2021-12-05T12:32:55.824Z</published>
+    <updated>2021-12-05T12:32:55.825Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="systemd-tmpfiles定时清理任务"><a href="#systemd-tmpfiles定时清理任务" class="headerlink" title="systemd-tmpfiles定时清理任务"></a>systemd-tmpfiles定时清理任务</h1><ul><li><a href="https://access.redhat.com/solutions/2066083">access.redhat.com How to auto clean up files in a specific directory regularly on RHEL7</a></li><li><a href="https://access.redhat.com/solutions/46083">access.redhat.com How to exclude a folder from getting deleted by “tmpwatch”</a></li><li><a href="https://access.redhat.com/solutions/2931511">access.redhat.com How to exclude files or directories from periodic clean up by tmpfiles-clean</a></li><li><a href="https://access.redhat.com/solutions/3558671">access.redhat.com Oracle application or database failures due to files being deleted within the /tmp or /var/tmp directories</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;systemd-tmpfiles定时清理任务&quot;&gt;&lt;a href=&quot;#systemd-tmpfiles定时清理任务&quot; class=&quot;headerlink&quot; title=&quot;systemd-tmpfiles定时清理任务&quot;&gt;&lt;/a&gt;systemd-tmpfiles定时清理</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/linux-rhel-centos-ntp-chronyd/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/linux-rhel-centos-ntp-chronyd/</id>
+    <published>2021-12-05T12:32:55.822Z</published>
+    <updated>2021-12-05T12:32:55.823Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><h2 id="ntp-chrony-timedate-date-hwclock"><a href="#ntp-chrony-timedate-date-hwclock" class="headerlink" title="ntp / chrony / timedate / date / hwclock"></a>ntp / chrony / timedate / date / hwclock</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">systemctl status ntpd (systemctl status chronyd)</span><br><span class="line">ntpstat (chronyc tracking)</span><br><span class="line">ntpq -pn (chronyc -n sources -v / chronyc -n sourcestats -v / chronyc activity)</span><br><span class="line">ntpdate IP-addr (chronyc makestep)</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">[x@db ~]$ systemctl status systemd-timedated.service</span><br><span class="line">● systemd-timedated.service - Time &amp; Date Service</span><br><span class="line">   Loaded: loaded (/usr/lib/systemd/system/systemd-timedated.service; static; vendor preset: disabled)</span><br><span class="line">   Active: inactive (dead)</span><br><span class="line">     Docs: man:systemd-timedated.service(8)</span><br><span class="line">           man:localtime(5)</span><br><span class="line">           http://www.freedesktop.org/wiki/Software/systemd/timedated</span><br><span class="line">[x@db ~]$ </span><br><span class="line">[x@db ~]$ timedatectl </span><br><span class="line">list-timezones  set-ntp         set-timezone    </span><br><span class="line">set-local-rtc   set-time        status          </span><br><span class="line">[x@db ~]$ timedatectl status</span><br><span class="line">      Local time: Tue 2020-10-27 00:42:00 CST</span><br><span class="line">  Universal time: Mon 2020-10-26 16:42:00 UTC</span><br><span class="line">        RTC time: Mon 2020-10-26 16:42:00</span><br><span class="line">       Time zone: Asia/Shanghai (CST, +0800)</span><br><span class="line">     NTP enabled: no</span><br><span class="line">NTP synchronized: yes</span><br><span class="line"> RTC in local TZ: no</span><br><span class="line">      DST active: n/a</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">[root@Geeklp-Administrator ~]# hwclock </span><br><span class="line">2017年12月18日 星期一 16时39分40秒  -0.110050 秒</span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock --show</span><br><span class="line">2017年12月18日 星期一 16时39分57秒  -0.293885 秒</span><br><span class="line"></span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock -s</span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock --hctosys</span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock </span><br><span class="line">2017年12月18日 星期一 17时17分39秒  -0.953704 秒</span><br><span class="line"></span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock -w</span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock </span><br><span class="line">2017年12月18日 星期一 17时02分16秒  -0.646804 秒</span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock --systohc</span><br><span class="line">[root@Geeklp-Administrator ~]# date</span><br><span class="line">2017年 12月 18日 星期一 17:14:08 CST</span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock </span><br><span class="line">2017年12月18日 星期一 17时14分17秒  -0.285800 秒</span><br><span class="line"></span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock -s --date &quot;12 oct 2013 13:01&quot;</span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock </span><br><span class="line">2017年12月18日 星期一 17时09分37秒  -0.047061 秒</span><br><span class="line">[root@Geeklp-Administrator ~]# date</span><br><span class="line">2017年 12月 18日 星期一 17:09:44 CST</span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock --set --date &quot;2015-11-23 21:17:23&quot; --utc</span><br><span class="line">[root@Geeklp-Administrator ~]# hwclock </span><br><span class="line">2015年11月23日 星期一 21时18分53秒  -0.208850 秒</span><br><span class="line">[root@Geeklp-Administrator ~]# date </span><br><span class="line">2017年 12月 18日 星期一 17:12:54 CST</span><br></pre></td></tr></table></figure><h2 id="AIX"><a href="#AIX" class="headerlink" title="AIX"></a>AIX</h2><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul><li><a href="https://blog.csdn.net/zzboat0422/article/details/94553932">csdn: RHEL7/CentOS7 chronyc 命令常用用法,代替 ntpstat/ntpq/ntpdate</a></li><li><a href="https://blog.csdn.net/weixin_41922887/article/details/100166706">csdn:ntp 、ntpdate 、chrony 时间同步</a></li><li><a href="https://ivandu.blog.csdn.net/article/details/78831319">csdn: Linux（RHEL7及CentOS7）的时间设置篇（timedatectl，date，hwclock）</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Linux&quot;&gt;&lt;a href=&quot;#Linux&quot; class=&quot;headerlink&quot; title=&quot;Linux&quot;&gt;&lt;/a&gt;Linux&lt;/h1&gt;&lt;h2 id=&quot;ntp-chrony-timedate-date-hwclock&quot;&gt;&lt;a href=&quot;#ntp-chron</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/linux-iproute2-ip/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/linux-iproute2-ip/</id>
+    <published>2021-12-05T12:32:55.820Z</published>
+    <updated>2021-12-05T12:32:55.821Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="网络管理"><a href="#网络管理" class="headerlink" title="网络管理"></a>网络管理</h1><h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><h3 id="ip"><a href="#ip" class="headerlink" title="ip"></a>ip</h3><h3 id="nmcli"><a href="#nmcli" class="headerlink" title="nmcli"></a>nmcli</h3><h3 id=""><a href="#" class="headerlink" title=""></a></h3><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul><li><a href="https://blog.csdn.net/zzboat0422/article/details/93979978">csdn: RHEL7/CentOS7 ip 命令常用用法</a></li><li><a href="https://blog.csdn.net/liuhaoy/article/details/102750312">csdn: linux iproute2包中ip命令的使用</a></li><li><a href="https://blog.csdn.net/astrotycoon/article/details/52317288">csdn: linux网络工具iproute2的使用简介</a></li></ul><ul><li><a href="https://www.cnblogs.com/djlsunshine/p/9733182.html">cnblogs: linux中nmcli命令使用及网络配置</a></li><li><a href="https://blog.51cto.com/13438667/2090710">51cto:nmcli命令使用以及网卡绑定bond</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;网络管理&quot;&gt;&lt;a href=&quot;#网络管理&quot; class=&quot;headerlink&quot; title=&quot;网络管理&quot;&gt;&lt;/a&gt;网络管理&lt;/h1&gt;&lt;h2 id=&quot;Linux&quot;&gt;&lt;a href=&quot;#Linux&quot; class=&quot;headerlink&quot; title=&quot;Linux&quot;&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/kvm-%E8%BF%81%E7%A7%BB/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/kvm-%E8%BF%81%E7%A7%BB/</id>
+    <published>2021-12-05T12:32:55.810Z</published>
+    <updated>2021-12-05T12:32:55.811Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="vmdk迁移至KVM"><a href="#vmdk迁移至KVM" class="headerlink" title="vmdk迁移至KVM"></a>vmdk迁移至KVM</h1><p>virt-v2v 工具自动化的解决了 VMware ESX/ESXi 服务器上的 RHEL 虚拟机和 Windows 虚拟机迁移到 KVM 主机的问题。而且在迁移的过程中尽量的使用 virtio 驱动提高 IO 设备的性能。但是，virt-2v2 工具也有一些局限性。比如只支持虚拟机关机情况下的静态迁移；只支持 RHEL 虚拟机和 Windows 虚拟机的迁移；不支持 VMware 虚拟机快照的迁移。对于创建在 VMware Workstation/Player 上的虚拟机，目前 virt-v2v 还不支持自动迁移。</p><h2 id="host-machine"><a href="#host-machine" class="headerlink" title="host machine"></a>host machine</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install libguestfs-winsupport virtio-win</span><br></pre></td></tr></table></figure><h2 id="VMware虚拟机转KVM"><a href="#VMware虚拟机转KVM" class="headerlink" title="VMware虚拟机转KVM"></a>VMware虚拟机转KVM</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">qemu-img convert -f vmdk -O qcow2 Metasploitable.vmdk Metasploitable.img</span><br><span class="line"></span><br><span class="line">qemu-img info Metasploitable.img</span><br><span class="line"></span><br><span class="line">@ https://launchpad.net/ubuntu/+source/virt-goodies/0.4</span><br><span class="line">vmware2libvirt -f Metasploitable.vmx &gt; Metasploitable.xml</span><br><span class="line"></span><br><span class="line">virsh -c qemu://system define Metasploitable.xml</span><br><span class="line"></span><br><span class="line">sudo virt-manager</span><br><span class="line"></span><br></pre></td></tr></table></figure><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul><li><a href="https://www.ibm.com/developerworks/cn/linux/l-cn-mgrtvm3/index.html">IBM: 迁移 VMware 虚拟机到 VM</a></li><li><a href="https://access.redhat.com/articles/1351473">Redhat: Converting virtual machines from other hypervisors to KVM with virt-v2v in RHEL 7 and RHEL 8</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;vmdk迁移至KVM&quot;&gt;&lt;a href=&quot;#vmdk迁移至KVM&quot; class=&quot;headerlink&quot; title=&quot;vmdk迁移至KVM&quot;&gt;&lt;/a&gt;vmdk迁移至KVM&lt;/h1&gt;&lt;p&gt;virt-v2v 工具自动化的解决了 VMware ESX/ESXi 服务器</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/kvm-%E8%BF%81%E7%A7%BB%20(2)/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/kvm-%E8%BF%81%E7%A7%BB%20(2)/</id>
+    <published>2021-12-05T12:32:55.808Z</published>
+    <updated>2021-12-05T12:32:55.809Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="vmdk迁移至KVM"><a href="#vmdk迁移至KVM" class="headerlink" title="vmdk迁移至KVM"></a>vmdk迁移至KVM</h1><p>virt-v2v 工具自动化的解决了 VMware ESX/ESXi 服务器上的 RHEL 虚拟机和 Windows 虚拟机迁移到 KVM 主机的问题。而且在迁移的过程中尽量的使用 virtio 驱动提高 IO 设备的性能。但是，virt-2v2 工具也有一些局限性。比如只支持虚拟机关机情况下的静态迁移；只支持 RHEL 虚拟机和 Windows 虚拟机的迁移；不支持 VMware 虚拟机快照的迁移。对于创建在 VMware Workstation/Player 上的虚拟机，目前 virt-v2v 还不支持自动迁移。</p><h2 id="host-machine"><a href="#host-machine" class="headerlink" title="host machine"></a>host machine</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install libguestfs-winsupport virtio-win</span><br></pre></td></tr></table></figure><h2 id="VMware虚拟机转KVM"><a href="#VMware虚拟机转KVM" class="headerlink" title="VMware虚拟机转KVM"></a>VMware虚拟机转KVM</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">qemu-img convert -f vmdk -O qcow2 Metasploitable.vmdk Metasploitable.img</span><br><span class="line"></span><br><span class="line">qemu-img info Metasploitable.img</span><br><span class="line"></span><br><span class="line">@ https://launchpad.net/ubuntu/+source/virt-goodies/0.4</span><br><span class="line">vmware2libvirt -f Metasploitable.vmx &gt; Metasploitable.xml</span><br><span class="line"></span><br><span class="line">virsh -c qemu://system define Metasploitable.xml</span><br><span class="line"></span><br><span class="line">sudo virt-manager</span><br><span class="line"></span><br></pre></td></tr></table></figure><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul><li><a href="https://www.ibm.com/developerworks/cn/linux/l-cn-mgrtvm3/index.html">IBM: 迁移 VMware 虚拟机到 VM</a></li><li><a href="https://access.redhat.com/articles/1351473">Redhat: Converting virtual machines from other hypervisors to KVM with virt-v2v in RHEL 7 and RHEL 8</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;vmdk迁移至KVM&quot;&gt;&lt;a href=&quot;#vmdk迁移至KVM&quot; class=&quot;headerlink&quot; title=&quot;vmdk迁移至KVM&quot;&gt;&lt;/a&gt;vmdk迁移至KVM&lt;/h1&gt;&lt;p&gt;virt-v2v 工具自动化的解决了 VMware ESX/ESXi 服务器</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/kvm-virtulization/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/kvm-virtulization/</id>
+    <published>2021-12-05T12:32:55.806Z</published>
+    <updated>2021-12-05T12:32:55.807Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.kernel.org/doc/html/latest/virt/kvm/index.html">Kernel.org  KVM</a></p><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul><li><a href="https://computer.howstuffworks.com/server-virtualization.htm">howstuffworks: How Server Virtualization Works</a></li><li><a href="https://en.wikipedia.org/wiki/OS-level_virtualization">Wikipedia: OS-level Virtualization</a></li><li><a href="https://blog.csdn.net/weixin_47019016/article/details/107933719">csdn: 虚拟化及KVM相关介绍</a></li><li><a href="https://blog.csdn.net/isclouder/article/details/79179598">csdn: kvm虚拟化之CPU虚拟化</a></li><li><a href="https://blog.csdn.net/jmilk/article/details/51031118">csdn: 虚拟化的发展历程和实现方式</a></li><li><a href="http://virtual.it168.com/a2010/0315/860/000000860647.shtml">it168: X86虚拟化之三种服务器虚拟化战略架构</a></li><li><a href="https://blog.csdn.net/jmilk/article/details/51824935">csdn 全虚拟化与半虚拟化的实现方式</a></li><li><a href="https://blog.csdn.net/mumuriyue/article/details/85714900">csdn: 虚拟化技术的分类及介绍</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.kernel.org/doc/html/latest/virt/kvm/index.html&quot;&gt;Kernel.org  KVM&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; clas</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/kvm-virtulization%20(2)/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/kvm-virtulization%20(2)/</id>
+    <published>2021-12-05T12:32:55.805Z</published>
+    <updated>2021-12-05T12:32:55.805Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.kernel.org/doc/html/latest/virt/kvm/index.html">Kernel.org  KVM</a></p><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul><li><a href="https://computer.howstuffworks.com/server-virtualization.htm">howstuffworks: How Server Virtualization Works</a></li><li><a href="https://en.wikipedia.org/wiki/OS-level_virtualization">Wikipedia: OS-level Virtualization</a></li><li><a href="https://blog.csdn.net/weixin_47019016/article/details/107933719">csdn: 虚拟化及KVM相关介绍</a></li><li><a href="https://blog.csdn.net/isclouder/article/details/79179598">csdn: kvm虚拟化之CPU虚拟化</a></li><li><a href="https://blog.csdn.net/jmilk/article/details/51031118">csdn: 虚拟化的发展历程和实现方式</a></li><li><a href="http://virtual.it168.com/a2010/0315/860/000000860647.shtml">it168: X86虚拟化之三种服务器虚拟化战略架构</a></li><li><a href="https://blog.csdn.net/jmilk/article/details/51824935">csdn 全虚拟化与半虚拟化的实现方式</a></li><li><a href="https://blog.csdn.net/mumuriyue/article/details/85714900">csdn: 虚拟化技术的分类及介绍</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.kernel.org/doc/html/latest/virt/kvm/index.html&quot;&gt;Kernel.org  KVM&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; clas</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/05/kvm-virtio/"/>
+    <id>http://jsunnyr.github.io/2021/12/05/kvm-virtio/</id>
+    <published>2021-12-05T12:32:55.802Z</published>
+    <updated>2021-12-05T12:32:55.803Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="KVM-Linux开启virtio"><a href="#KVM-Linux开启virtio" class="headerlink" title="KVM Linux开启virtio"></a>KVM Linux开启virtio</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">[root@kvm-host]#</span><span class="bash"> virsh domblklist --domain vm01</span></span><br><span class="line">hda/var/lib/libvirt/iamges/vm01-os.qcow2</span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"> lsmod | grep -i virtio</span></span><br><span class="line">virtio_ballon18015 0</span><br><span class="line">virtio_console28076 0</span><br><span class="line">virtio_pci22985 0</span><br><span class="line">virtio_ring22746 0</span><br><span class="line">virtio</span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"> cat &gt;&gt; /etc/sysconfig/modules/virtio.modules&lt;&lt;<span class="string">EOF</span></span></span><br><span class="line">modprobe virtio_blk</span><br><span class="line">modprobe virtio_scsi</span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> chmod a+x /etc/sysconfig/modules/virtio.modules</span></span></span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> mkinitrd  --with  virtio  --with  virtio_pci   --with  virtio_blk   --with  virtio_net   -f  boot/initrd-$(uname -r).img  $(uname -r)</span></span></span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> sync</span></span></span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> reboot</span></span></span><br><span class="line"><span class="meta">[root@kvm-host]#</span><span class="bash"><span class="string"> virsh domblklist vm01</span></span></span><br><span class="line">vda/var/lib/libvirt/iamges/vm01-os.qcow2</span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> lsmod | grep -i virtio</span></span></span><br><span class="line">virtio_scsi18463 0</span><br><span class="line">virtio_blk18323 0</span><br><span class="line">virtio_ballon18015 0</span><br><span class="line">virtio_console28076 0</span><br><span class="line">virtio_pci22985 0</span><br><span class="line">virtio_ring22746 0</span><br><span class="line">virtio</span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> lspci | grep -i virtioß</span></span></span><br></pre></td></tr></table></figure><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul><li><a href="https://dl.fedoraproject.org/pub/alt/virtio-win/">Fedora: virtio-win iso</a></li><li><a href="https://fedorapeople.org/groups/">Fedora: virtio iso</a></li><li><a href="https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html">Fedora: Creating Windows virtual machines using virtIO drivers</a></li><li><a href="https://blog.csdn.net/somyjun/article/details/81390425">csdn: Linux开启virtio</a></li><li><a href="https://www.cnblogs.com/lyhabc/p/5830495.html">cnblogs: kvm上的Linux虚拟机使用virtio磁盘</a></li><li><a href="https://www.cnblogs.com/lunachy/p/5036713.html">cnblogs: KVM下windows虚拟机使用virtio驱动</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;KVM-Linux开启virtio&quot;&gt;&lt;a href=&quot;#KVM-Linux开启virtio&quot; class=&quot;headerlink&quot; title=&quot;KVM Linux开启virtio&quot;&gt;&lt;/a&gt;KVM Linux开启virtio&lt;/h1&gt;&lt;figure class</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
