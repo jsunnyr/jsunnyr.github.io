@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/oracle-14-tuning-librarycache/</loc>
+    <lastmod>2021-12-07</lastmod>
+  </url>
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/oracle-10-common-sql-%E5%B8%B8%E7%94%A8sql%E8%AF%AD%E5%8F%A5/</loc>
+    <lastmod>2021-12-07</lastmod>
+  </url>
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/oracle-04-parameters-list-%E5%8F%82%E6%95%B0%E5%88%97%E8%A1%A8/</loc>
+    <lastmod>2021-12-07</lastmod>
+  </url>
+  <url>
+    <loc>http://jsunnyr.github.io/2020/01/07/oracle-05-para/</loc>
+    <lastmod>2021-12-07</lastmod>
+  </url>
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/oracle-01-dynamic-performance-views-%E5%B8%B8%E7%94%A8%E8%A1%A8%E5%92%8C%E8%A7%86%E5%9B%BE/</loc>
+    <lastmod>2021-12-07</lastmod>
+  </url>
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/oracle-11-user-management-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2021-12-07</lastmod>
+  </url>
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/oracle-13-different-name-%E5%90%84%E7%A7%8Dname%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <lastmod>2021-12-07</lastmod>
+  </url>
+  <url>
+    <loc>http://jsunnyr.github.io/2021/12/07/oracle-11-role-privileges-%E8%A7%92%E8%89%B2%E4%B8%8E%E6%9D%83%E9%99%90/</loc>
+    <lastmod>2021-12-07</lastmod>
+  </url>
+  <url>
+    <loc>http://jsunnyr.github.io/2018/07/23/rhel-2018-01-configure-ipv6-address-%E9%85%8D%E7%BD%AEipv6%E5%9C%B0%E5%9D%80/</loc>
+    <lastmod>2021-12-07</lastmod>
+  </url>
+  <url>
     <loc>http://jsunnyr.github.io/2019/09/01/oracle-07-listener/</loc>
     <lastmod>2021-12-07</lastmod>
   </url>
@@ -9,23 +45,11 @@
     <lastmod>2021-12-07</lastmod>
   </url>
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-01-views-%E5%B8%B8%E7%94%A8%E8%A1%A8%E5%92%8C%E8%A7%86%E5%9B%BE/</loc>
-    <lastmod>2021-12-07</lastmod>
-  </url>
-  <url>
     <loc>http://jsunnyr.github.io/2019/09/01/oracle-08-explain-plan-%E6%89%A7%E8%A1%8C%E8%AE%A1%E5%88%92/</loc>
     <lastmod>2021-12-07</lastmod>
   </url>
   <url>
     <loc>http://jsunnyr.github.io/2019/09/01/oracle-06-delete-oracle-software/</loc>
-    <lastmod>2021-12-07</lastmod>
-  </url>
-  <url>
-    <loc>http://jsunnyr.github.io/2020/01/07/oracle-05-para/</loc>
-    <lastmod>2021-12-07</lastmod>
-  </url>
-  <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-04-parameters-list-%E5%8F%82%E6%95%B0%E5%88%97%E8%A1%A8/</loc>
     <lastmod>2021-12-07</lastmod>
   </url>
   <url>

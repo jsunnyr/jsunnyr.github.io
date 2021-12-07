@@ -6,7 +6,7 @@
   <link href="http://jsunnyr.github.io/atom.xml" rel="self"/>
   
   <link href="http://jsunnyr.github.io/"/>
-  <updated>2021-12-05T13:57:53.765Z</updated>
+  <updated>2021-12-07T05:44:55.667Z</updated>
   <id>http://jsunnyr.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://jsunnyr.github.io/2021/12/07/oracle-11-role-privileges-%E8%A7%92%E8%89%B2%E4%B8%8E%E6%9D%83%E9%99%90/"/>
+    <id>http://jsunnyr.github.io/2021/12/07/oracle-11-role-privileges-%E8%A7%92%E8%89%B2%E4%B8%8E%E6%9D%83%E9%99%90/</id>
+    <published>2021-12-07T05:18:03.215Z</published>
+    <updated>2021-12-07T05:44:55.667Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="锁定与解锁"><a class="markdownIt-Anchor" href="#锁定与解锁"></a> 锁定与解锁</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">select username,account_status from dba_users;</span><br><span class="line">alter user username account lock;</span><br><span class="line">alter user username account unlock;</span><br><span class="line">alter user username identified by new_password;</span><br><span class="line">alter user username identified by new_password account unlock;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h1 id="角色权限"><a class="markdownIt-Anchor" href="#角色权限"></a> 角色权限</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment"># 查看某个用户有哪些角色</span></span><br><span class="line">select * from dba_role_privs <span class="built_in">where</span> grantee=<span class="string">&#x27;HR&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看某个角色被赋予了哪些用户</span></span><br><span class="line">select * from dba_role_privs <span class="built_in">where</span> granted_role=<span class="string">&#x27;DBA&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 对象权限</span></span><br><span class="line">select * from dba_tab_privs;</span><br></pre></td></tr></table></figure><h2 id="授予权限"><a class="markdownIt-Anchor" href="#授予权限"></a> 授予权限</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看role</span></span><br><span class="line">select * from dba_roles;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 授予HR用户某些角色</span></span><br><span class="line">GRANT connect,resource TO <span class="string">&#x27;HR&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 授予HR用户dba角色时，要重新连接才能生效</span></span><br><span class="line">GRANT dba to <span class="string">&#x27;HR&#x27;</span>;</span><br><span class="line">REVOKE dba to <span class="string">&#x27;HR&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 直接授予HR用户某些权限</span></span><br><span class="line">GRANT CREATE VIEW TO <span class="string">&#x27;HR&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看某个系统用户是否有SYSDBA或者SYSOPER权限</span></span><br><span class="line">select * from v<span class="variable">$pwfile_users</span>;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;锁定与解锁&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#锁定与解锁&quot;&gt;&lt;/a&gt; 锁定与解锁&lt;/h1&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Virt-manager</title>
@@ -413,26 +434,6 @@
       
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.kernel.org/doc/html/latest/virt/kvm/index.html&quot;&gt;Kernel.org  KVM&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; clas</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://jsunnyr.github.io/2021/12/05/kvm-virtio/"/>
-    <id>http://jsunnyr.github.io/2021/12/05/kvm-virtio/</id>
-    <published>2021-12-05T12:32:55.802Z</published>
-    <updated>2021-12-05T12:32:55.803Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="KVM-Linux开启virtio"><a href="#KVM-Linux开启virtio" class="headerlink" title="KVM Linux开启virtio"></a>KVM Linux开启virtio</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">[root@kvm-host]#</span><span class="bash"> virsh domblklist --domain vm01</span></span><br><span class="line">hda/var/lib/libvirt/iamges/vm01-os.qcow2</span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"> lsmod | grep -i virtio</span></span><br><span class="line">virtio_ballon18015 0</span><br><span class="line">virtio_console28076 0</span><br><span class="line">virtio_pci22985 0</span><br><span class="line">virtio_ring22746 0</span><br><span class="line">virtio</span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"> cat &gt;&gt; /etc/sysconfig/modules/virtio.modules&lt;&lt;<span class="string">EOF</span></span></span><br><span class="line">modprobe virtio_blk</span><br><span class="line">modprobe virtio_scsi</span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> chmod a+x /etc/sysconfig/modules/virtio.modules</span></span></span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> mkinitrd  --with  virtio  --with  virtio_pci   --with  virtio_blk   --with  virtio_net   -f  boot/initrd-$(uname -r).img  $(uname -r)</span></span></span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> sync</span></span></span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> reboot</span></span></span><br><span class="line"><span class="meta">[root@kvm-host]#</span><span class="bash"><span class="string"> virsh domblklist vm01</span></span></span><br><span class="line">vda/var/lib/libvirt/iamges/vm01-os.qcow2</span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> lsmod | grep -i virtio</span></span></span><br><span class="line">virtio_scsi18463 0</span><br><span class="line">virtio_blk18323 0</span><br><span class="line">virtio_ballon18015 0</span><br><span class="line">virtio_console28076 0</span><br><span class="line">virtio_pci22985 0</span><br><span class="line">virtio_ring22746 0</span><br><span class="line">virtio</span><br><span class="line"><span class="meta">[root@vm01]#</span><span class="bash"><span class="string"> lspci | grep -i virtioß</span></span></span><br></pre></td></tr></table></figure><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul><li><a href="https://dl.fedoraproject.org/pub/alt/virtio-win/">Fedora: virtio-win iso</a></li><li><a href="https://fedorapeople.org/groups/">Fedora: virtio iso</a></li><li><a href="https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html">Fedora: Creating Windows virtual machines using virtIO drivers</a></li><li><a href="https://blog.csdn.net/somyjun/article/details/81390425">csdn: Linux开启virtio</a></li><li><a href="https://www.cnblogs.com/lyhabc/p/5830495.html">cnblogs: kvm上的Linux虚拟机使用virtio磁盘</a></li><li><a href="https://www.cnblogs.com/lunachy/p/5036713.html">cnblogs: KVM下windows虚拟机使用virtio驱动</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;KVM-Linux开启virtio&quot;&gt;&lt;a href=&quot;#KVM-Linux开启virtio&quot; class=&quot;headerlink&quot; title=&quot;KVM Linux开启virtio&quot;&gt;&lt;/a&gt;KVM Linux开启virtio&lt;/h1&gt;&lt;figure class</summary>
       
     
     
