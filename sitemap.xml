@@ -2,7 +2,484 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-10-common-sql-%E5%B8%B8%E7%94%A8sql%E8%AF%AD%E5%8F%A5/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/21/security/os-secure/linux-pam-pam%E8%AE%BE%E7%BD%AE/</loc>
+    
+    <lastmod>2021-12-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/12/21/security/os-secure/linux-capability-%E5%88%A9%E7%94%A8capability%E8%BF%9B%E8%A1%8CLinux%E6%8F%90%E6%9D%83/</loc>
+    
+    <lastmod>2021-12-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-profile-01-%E4%BB%A5%E7%94%A8%E6%88%B7%E5%90%8D%E5%8C%BA%E5%88%86%E7%9A%84history/</loc>
+    
+    <lastmod>2021-12-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/12/21/os/rpm/linux-file-profile/</loc>
+    
+    <lastmod>2021-12-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-command-series-lspci/</loc>
+    
+    <lastmod>2021-12-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/performance-tuning/linux-command-series-perf/</loc>
+    
+    <lastmod>2021-12-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/performance-tuning/performance-tuning-concept/</loc>
+    
+    <lastmod>2021-12-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/mysql/mysql-01-common-sql/</loc>
+    
+    <lastmod>2021-12-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-10-common-sql-%E5%B8%B8%E7%94%A8sql%E8%AF%AD%E5%8F%A5/</loc>
+    
+    <lastmod>2021-12-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/mysql/mysql-diag-profiling/</loc>
+    
+    <lastmod>2021-12-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-command-series-openssl/</loc>
+    
+    <lastmod>2021-12-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-command-series-ps/</loc>
+    
+    <lastmod>2021-12-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/12/19/os/performance-tuning/linux-kernel-parameters-sysctl/</loc>
+    
+    <lastmod>2021-12-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/12/19/os/performance-tuning/linux-cpu-analyse/</loc>
+    
+    <lastmod>2021-12-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/12/19/os/rpm/linux-rhel-history-variable-history%E5%91%BD%E4%BB%A4%E5%8F%98%E9%87%8F%E8%AF%B4%E6%98%8E/</loc>
+    
+    <lastmod>2021-12-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2015/09/01/os/rpm/linux-hardware-megaraid/</loc>
+    
+    <lastmod>2021-12-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/06/03/CentOS%208%20%E9%80%9A%E8%BF%87Minikube%E5%AE%89%E8%A3%85%E5%8D%95%E6%9C%BAKubernetes%E9%9B%86%E7%BE%A4/</loc>
+    
+    <lastmod>2021-12-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/12/05/python-pip-configuration/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/database-oracle-installation-step-by-step/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/12/05/npm/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/12/05/emacs-macos%E5%8D%87%E7%BA%A7%E5%90%8E%E6%97%A0%E6%B3%95tab%E8%A1%A5%E5%85%A8/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2018/07/23/security-cert/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2018/07/23/template/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/os/rpm/linux-centos-package-git2u/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/ansible/ansible-01-ping-error-%E8%BF%9E%E9%80%9A%E6%80%A7%E6%B5%8B%E8%AF%95%E9%94%99%E8%AF%AF/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/12/09/os/rpm/linux-autofs-%E5%AE%89%E8%A3%85autofs/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2015/09/01/os/rpm/linux-disk-burning/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2015/09/01/os/rpm/linux-disk-destory-data-%E7%A0%B4%E5%9D%8F%E7%A3%81%E7%9B%98%E6%95%B0%E6%8D%AE/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-rhel-uuid/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-management-user-management/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-rhel-systemd/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-rhel-src-rpm/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-hardware-raid/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2015/09/01/os/rpm/linux-management-processor-management/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2015/09/01/os/rpm/linux-management-process-management/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-rhel8-network-NetworkManager/</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-terminal-bind/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-openssh-ssh-config/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-openssh-sshd-config/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-disk-lvm/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2015/09/01/os/rpm/linux-management-storage-management/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2015/09/01/os/rpm/linux-management-equipment-management/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2015/09/01/os/rpm/linux-management-file-management/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/12/09/os/rpm/os-management-job-management/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2015/09/01/os/rpm/linux-maintance-log/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-kernel-compile/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-google-authenticator/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-network-nmcli-nmcli/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2020/01/06/os/rpm/linux-emacs-mail/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-ldap/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-hardware-mgmt/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-account_unlock/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-pxe-PXE%E5%AE%89%E8%A3%85%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
+    
+    <lastmod>2021-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-01-dynamic-performance-views-%E5%B8%B8%E7%94%A8%E8%A1%A8%E5%92%8C%E8%A7%86%E5%9B%BE/</loc>
     
     <lastmod>2021-12-08</lastmod>
     
@@ -11,7 +488,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-01-dynamic-performance-views-%E5%B8%B8%E7%94%A8%E8%A1%A8%E5%92%8C%E8%A7%86%E5%9B%BE/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-13-different-name-%E5%90%84%E7%A7%8Dname%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     
     <lastmod>2021-12-08</lastmod>
     
@@ -20,7 +497,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/linux-pxe-PXE%E5%AE%89%E8%A3%85%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-network-02-network-configuration-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%89%8B%E5%86%8C/</loc>
     
     <lastmod>2021-12-08</lastmod>
     
@@ -29,34 +506,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-13-different-name-%E5%90%84%E7%A7%8Dname%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
-    
-    <lastmod>2021-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/linux-hardware-mgmt/</loc>
-    
-    <lastmod>2021-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/linux-network-02-network-configuration-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%89%8B%E5%86%8C/</loc>
-    
-    <lastmod>2021-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/linux-network-03-route/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-network-03-route/</loc>
     
     <lastmod>2021-12-08</lastmod>
     
@@ -74,7 +524,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/linux-yum-vars/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-yum-vars/</loc>
     
     <lastmod>2021-12-08</lastmod>
     
@@ -92,7 +542,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/linux-unusual-character/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-unusual-character/</loc>
     
     <lastmod>2021-12-08</lastmod>
     
@@ -101,7 +551,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/linux-udev/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-udev/</loc>
     
     <lastmod>2021-12-08</lastmod>
     
@@ -110,7 +560,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/linux-security-iptabes/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-security-iptabes/</loc>
     
     <lastmod>2021-12-08</lastmod>
     
@@ -119,7 +569,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/linux-rhel-centos-ntp-chronyd/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-rhel-centos-ntp-chronyd/</loc>
     
     <lastmod>2021-12-08</lastmod>
     
@@ -128,7 +578,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/linux-network-01-bridge-network/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/rpm/linux-network-01-bridge-network/</loc>
     
     <lastmod>2021-12-08</lastmod>
     
@@ -137,7 +587,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/kvm-01-bridge-configuration-%E7%BD%91%E6%A1%A5%E9%85%8D%E7%BD%AE/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/kvm/kvm-01-bridge-configuration-%E7%BD%91%E6%A1%A5%E9%85%8D%E7%BD%AE/</loc>
     
     <lastmod>2021-12-08</lastmod>
     
@@ -146,16 +596,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/ansible-01-ping-error-%E8%BF%9E%E9%80%9A%E6%80%A7%E6%B5%8B%E8%AF%95%E9%94%99%E8%AF%AF/</loc>
-    
-    <lastmod>2021-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-14-tuning-librarycache/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-14-tuning-librarycache/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -164,7 +605,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-04-parameters-list-%E5%8F%82%E6%95%B0%E5%88%97%E8%A1%A8/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-04-parameters-list-%E5%8F%82%E6%95%B0%E5%88%97%E8%A1%A8/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -173,7 +614,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/07/oracle-05-para/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/07/db/oracle/oracle-05-para/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -182,7 +623,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-11-user-management-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-11-user-management-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -191,7 +632,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/07/oracle-11-role-privileges-%E8%A7%92%E8%89%B2%E4%B8%8E%E6%9D%83%E9%99%90/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/07/db/oracle/oracle-11-role-privileges-%E8%A7%92%E8%89%B2%E4%B8%8E%E6%9D%83%E9%99%90/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -209,7 +650,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-07-listener/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-07-listener/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -218,7 +659,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-09-schema/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-09-schema/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -227,7 +668,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-08-explain-plan-%E6%89%A7%E8%A1%8C%E8%AE%A1%E5%88%92/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-08-explain-plan-%E6%89%A7%E8%A1%8C%E8%AE%A1%E5%88%92/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -236,7 +677,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-06-delete-oracle-software/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-06-delete-oracle-software/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -245,7 +686,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-03-set-events-%E8%B7%9F%E8%B8%AA%E4%BA%8B%E4%BB%B6/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-03-set-events-%E8%B7%9F%E8%B8%AA%E4%BA%8B%E4%BB%B6/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -254,7 +695,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-02-controfile-%E6%8E%A7%E5%88%B6%E6%96%87%E4%BB%B6/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-02-controfile-%E6%8E%A7%E5%88%B6%E6%96%87%E4%BB%B6/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -263,7 +704,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/oracle-roadmap/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/oracle/oracle-roadmap/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -272,7 +713,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/redis/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/db/redis/redis/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -281,7 +722,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/ubuntu%20%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/os/deb/ubuntu%20%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -299,7 +740,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/windows-powershell-01-basic/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/win/windows-powershell-01-basic/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -308,7 +749,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/windows-sc-create-services/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/win/windows-sc-create-services/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -317,7 +758,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2019/09/01/windows-user-mgmt/</loc>
+    <loc>http://jsunnyr.github.io/2019/09/01/win/windows-user-mgmt/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -326,7 +767,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/winlogbeat/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/win/winlogbeat/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -344,7 +785,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-related/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-related/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -353,7 +794,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/openbsd_rcctl/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/os/openbsd/openbsd_rcctl/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -380,25 +821,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/windows-powershell-book/</loc>
-    
-    <lastmod>2021-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/template/</loc>
-    
-    <lastmod>2021-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/security-cert/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/win/windows-powershell-book/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -425,16 +848,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/redis-%E5%AE%89%E8%A3%85/</loc>
-    
-    <lastmod>2021-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/python-pip-configuration/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/db/redis/redis-%E5%AE%89%E8%A3%85/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -461,7 +875,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/os_linux_iptables/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/os/rpm/os_linux_iptables/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -470,7 +884,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/os-linux/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/os/rpm/os-linux/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -479,7 +893,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/17/os-linux-xinetd/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/17/os/rpm/os-linux-xinetd/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -488,7 +902,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/17/os-linux-software/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/17/os/rpm/os-linux-software/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -497,7 +911,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/17/os-linux-iscsi/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/17/os/rpm/os-linux-iscsi/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -506,7 +920,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/os-basic-01/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/os/rpm/os-basic-01/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -515,7 +929,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/07/oracle-outline/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/07/db/oracle/oracle-outline/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -524,7 +938,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/07/oracle-basic/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/07/db/oracle/oracle-basic/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -533,7 +947,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/07/oracle-advanced/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/07/db/oracle/oracle-advanced/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -551,7 +965,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/openbsd_pfctl/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/os/openbsd/openbsd_pfctl/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -560,7 +974,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/03/22/openbsd_01_01/</loc>
+    <loc>http://jsunnyr.github.io/2020/03/22/os/openbsd/openbsd_01_01/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -569,7 +983,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/openbsd_01/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/os/openbsd/openbsd_01/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -578,7 +992,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/03/22/openbsd/</loc>
+    <loc>http://jsunnyr.github.io/2020/03/22/os/openbsd/openbsd/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -587,25 +1001,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/16/openbsd-series-01/</loc>
-    
-    <lastmod>2021-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/npm/</loc>
-    
-    <lastmod>2021-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/npm-npm-installation-by-source/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/16/os/openbsd/openbsd-series-01/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -632,7 +1028,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/07/mysql-procedure/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/07/db/mysql/mysql-procedure/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -641,7 +1037,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/mysql-password-policy/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/db/mysql/mysql-password-policy/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -650,7 +1046,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/mysql-outline/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/db/mysql/mysql-outline/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -659,7 +1055,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/07/mysql-installation/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/07/db/mysql/mysql-installation/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -668,7 +1064,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/mysql-error/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/db/mysql/mysql-error/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -677,7 +1073,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/mysql-configuration-example/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/db/mysql/mysql-configuration-example/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -686,7 +1082,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/07/mysql-basic/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/07/db/mysql/mysql-basic/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -695,7 +1091,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/07/mysql-basic-os-related/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/07/db/mysql/mysql-basic-os-related/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -704,7 +1100,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/linux_tool_network_related/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/os/rpm/linux_tool_network_related/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -713,7 +1109,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/linux_tool_lrzsz/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/os/rpm/linux_tool_lrzsz/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -722,7 +1118,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/linux_problem/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/os/rpm/linux_problem/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -731,7 +1127,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/linux_history/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/06/os/rpm/linux_history/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -740,7 +1136,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/linux-sftp-server/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/os/rpm/linux-sftp-server/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -749,7 +1145,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/linux-rhel-systemd-tmpfiles/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/os/rpm/linux-rhel-systemd-tmpfiles/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -758,7 +1154,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/17/linux-firewalld/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/17/os/rpm/linux-firewalld/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -767,7 +1163,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/linux-emacs-mail/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-%E8%BF%81%E7%A7%BB/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -776,7 +1172,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/linux-account_unlock/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-virtulization/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -785,7 +1181,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-%E8%BF%81%E7%A7%BB/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-virtio/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -794,7 +1190,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-virtulization/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-virt-install/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -803,7 +1199,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-virtio/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-virt-clone/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -812,7 +1208,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-virt-install/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-vcpu-vmem/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -821,7 +1217,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-virt-clone/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-sites/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -830,7 +1226,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-vcpu-vmem/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-rhv-ovirt/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -839,7 +1235,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-sites/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-notes/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -848,7 +1244,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-rhv-ovirt/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-migration/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -857,7 +1253,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-notes/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-libguestfs/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -866,7 +1262,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-migration/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-depoly/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -875,25 +1271,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-libguestfs/</loc>
-    
-    <lastmod>2021-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-depoly/</loc>
-    
-    <lastmod>2021-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/kvm-cpu/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/05/kvm/kvm-cpu/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -929,15 +1307,6 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2020/01/06/install_latest_git_on_linux_git2u/</loc>
-    
-    <lastmod>2021-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jsunnyr.github.io/2020/01/07/how-to-learn-linux-kernel/</loc>
     
     <lastmod>2021-12-05</lastmod>
@@ -965,34 +1334,7 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/emacs-macos%E5%8D%87%E7%BA%A7%E5%90%8E%E6%97%A0%E6%B3%95tab%E8%A1%A5%E5%85%A8/</loc>
-    
-    <lastmod>2021-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2020/01/17/database-oracle-installation-step-by-step/</loc>
-    
-    <lastmod>2021-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2020/01/17/database-oracle-common-used-query/</loc>
-    
-    <lastmod>2021-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/2020/01/17/database-oracle-asm-basic/</loc>
+    <loc>http://jsunnyr.github.io/2020/01/17/oracle-asm-basic/</loc>
     
     <lastmod>2021-12-05</lastmod>
     
@@ -1037,9 +1379,90 @@
   </url>
   
   <url>
-    <loc>http://jsunnyr.github.io/2021/12/05/hello-world/</loc>
+    <loc>http://jsunnyr.github.io/2021/12/02/linux-kernel-parameter-rp_filter/</loc>
     
-    <lastmod>1985-10-26</lastmod>
+    <lastmod>2021-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/07/09/npm/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/06/10/kubernetes-common-command/</loc>
+    
+    <lastmod>2021-07-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/06/29/rh124/</loc>
+    
+    <lastmod>2021-06-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/06/11/cpp%E9%87%8D%E7%82%B9%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2021-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/06/17/rhel%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85vim82/</loc>
+    
+    <lastmod>2021-06-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/01/01/helm-kuerbentes-package-system/</loc>
+    
+    <lastmod>2021-06-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/06/16/%E6%B7%B1%E5%BA%A6%E5%AE%9E%E8%B7%B5KVM/</loc>
+    
+    <lastmod>2021-06-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/01/01/efk-on-kubernetes/</loc>
+    
+    <lastmod>2021-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/2021/01/01/harbor-installation/</loc>
+    
+    <lastmod>2021-06-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1048,7 +1471,7 @@
 
   <url>
     <loc>http://jsunnyr.github.io/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1056,252 +1479,259 @@
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Linux/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Experience/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Security/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/xls2csv/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Oracle/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/asm/</loc>
-    <lastmod>2021-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/tags/SQL/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Knowledge/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/git/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Kernel/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Emacs/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/iptables/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/MySQL/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Official-doc/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Outline/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Network/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/npm/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/OpenBSD/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/UNIX/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/BSD/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/OpenStack/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/OS/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Perl/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Programming/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Ruby/</loc>
-    <lastmod>2021-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/tags/Certification/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/logstash/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/%E6%96%87%E7%AB%A0%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Roadmap/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/CMD/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/user-management/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/Powershell/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/package-management/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/service-management/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/RHEL/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/tags/GNULINUX/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/tags/Peformance-Tuning/</loc>
+    <lastmod>2021-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/tags/Command/</loc>
+    <lastmod>2021-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/tags/Performance-Tuning/</loc>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -1310,182 +1740,203 @@
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Security/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Linux/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Oracle/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Knowledge/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Kernel/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/MySQL/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Outline/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Network/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/JS/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/OpenBSD/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/BSD/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/OpenStack/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/OS/</loc>
-    <lastmod>2021-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jsunnyr.github.io/categories/Certification/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Windows/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Database/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Database/Oracle/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Oracle/Roadmap/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Programming/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/OS/ubuntu/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Programming/CMD/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/Programming/Powershell/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/tools/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/GNULINUX/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://jsunnyr.github.io/categories/GNULINUX/RHEL/</loc>
-    <lastmod>2021-12-08</lastmod>
+    <lastmod>2021-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/categories/Database/MySQL/</loc>
+    <lastmod>2021-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/categories/Database/MySQL/Profiling/</loc>
+    <lastmod>2021-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/categories/GNULINUX/Command/</loc>
+    <lastmod>2021-12-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jsunnyr.github.io/categories/GNULINUX/Performance-Tuning/</loc>
+    <lastmod>2021-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
